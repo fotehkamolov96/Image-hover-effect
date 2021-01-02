@@ -1,5 +1,6 @@
 # Image hover effect
 In this article, I want to share with you how to beautifully make an image hover effect using the <figure> tag in HTML.
+
 feedback:
 
 📌Instagram https://www.instagram.com/fkamollov
