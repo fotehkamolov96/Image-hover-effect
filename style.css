@@ -94,7 +94,7 @@ h1{
 }
 .grid figure h2,
 .grid figure p {
-	margin: 0;
+	margin: 0;																																
 }
 .grid figure p {
 	letter-spacing: 1px;
@@ -141,9 +141,9 @@ figure.effect-zoe p.description {
 	transition: opacity 0.35s;
 }
 
-figure.effect-zoe h2,
+figure.effect-zoe h2,	
 figure.effect-zoe p.icon-links a {
-	-webkit-transition: -webkit-transform 0.35s;
+	-webkit-transition: -webkit-transform 0.35s;																		
 	transition: transform 0.35s;
 	-webkit-transform: translate3d(0,200%,0);
 	transform: translate3d(0,200%,0);
@@ -159,35 +159,28 @@ figure.effect-zoe p.icon-links a span::before {
 .icon-eye::before {
 	content: '\e000';
 }
-
 .icon-paper-clip::before {
 	content: '\e001';
 }
-
 .icon-heart::before {
 	content: '\e024';
 }
-
 figure.effect-zoe h2 {
 	display: inline-block;
 }
-
 figure.effect-zoe:hover p.description {
 	opacity: 1;
 }
-
 figure.effect-zoe:hover figcaption,
 figure.effect-zoe:hover h2,
 figure.effect-zoe:hover p.icon-links a {
 	-webkit-transform: translate3d(0,0,0);																				
 	transform: translate3d(0,0,0);
 }
-
 figure.effect-zoe:hover h2 {
 	-webkit-transition-delay: 0.05s;
 	transition-delay: 0.05s;
 }
-
 figure.effect-zoe:hover p.icon-links a:nth-child(3) {
 	-webkit-transition-delay: 0.1s;
 	transition-delay: 0.1s;
