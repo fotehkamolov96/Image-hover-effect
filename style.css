@@ -3,46 +3,35 @@ div {
 	text-align: center;
 	margin-top:100px;
 }
-
 body {
     display: block;
 	margin: 8px;
-	background-color:#DCE0EA;
+	background-color:#ffffff;
 }
-
 h1{
 	text-align: center;
 	font-size: 50px;
-	color: rgb(0, 76, 216);
+	color: rgb(0, 58, 167);
 	text-transform: uppercase;
 }
-
 .card {
-	background-color:#DCE0EA;
-    box-shadow: 0 0 1px 0 rgba(233, 236, 239);
+	background-color:#ffffff;
+    box-shadow: 0 0 1px 0 rgb(211, 213, 214);
 	transition: 0.3s;
 	max-width: 970px;
 	margin: 0 auto;
-
 }
-
 .card:hover {
     box-shadow: 0 2px 16px 0 rgb(255, 255, 255);
 }
-
-
-
 .grid {
 	position: relative;
 	margin: 0 auto;
 	padding: 1em 0 4em;
 	max-width: 1000px;
 	list-style: none;
-	text-align: center;
-	
+	text-align: center;	
 }
-
-/* Common style */
 .grid figure {
 	position: relative;
 	float: right;
@@ -89,8 +78,6 @@ h1{
 	height: 100%;
 }
 
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
 .grid figure figcaption > a {
 	z-index: 1000;
 	text-indent: 200%;
@@ -98,33 +85,21 @@ h1{
 	font-size: 0;
 	opacity: 0;
 }
-
 .grid figure h2 {
 	word-spacing: -0.15em;
 	font-weight: 300;
 }
-
 .grid figure h2 span {
 	font-weight: 800;
 }
-
 .grid figure h2,
 .grid figure p {
 	margin: 0;
 }
-
 .grid figure p {
 	letter-spacing: 1px;
 	font-size: 60%;
 }
-
-/* Individual effects */
-
-
-/*---------------*/
-/***** Zoe *****/
-/*---------------*/
-
 figure.effect-zoe figcaption {
 	top: auto;
 	bottom: 0;
@@ -137,9 +112,8 @@ figure.effect-zoe figcaption {
 	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
 }
-
 figure.effect-zoe h2 {
-	float: left;
+	float: center;
 }
 
 figure.effect-zoe p.icon-links a {
@@ -165,7 +139,6 @@ figure.effect-zoe p.description {
 	opacity: 0;
 	-webkit-transition: opacity 0.35s;
 	transition: opacity 0.35s;
-	-webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
 }
 
 figure.effect-zoe h2,
@@ -175,13 +148,10 @@ figure.effect-zoe p.icon-links a {
 	-webkit-transform: translate3d(0,200%,0);
 	transform: translate3d(0,200%,0);
 }
-
 figure.effect-zoe p.icon-links a span::before {
 	display: inline-block;
 	padding: 8px 10px;
 	margin-right: 30px;
-	font-family: 'feathericons';
-	speak: none;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
